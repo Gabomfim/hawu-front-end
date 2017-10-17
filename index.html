@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="StyleSheets/style.css" rel="StyleSheet" type="text/css" />
+		<title>HAWU CONTROL</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	</head>
+	<body>
+	<!--Javascript-->
+			<script >
+			//muda o conteudo da div content
+			window.onload = function() {
+					var texto = home();
+					document.getElementById("content").innerHTML = texto;
+					document.getElementsByClassName("menu-item")[0].style.backgroundColor = '#1D9591';
+			};
+			function comodo(comodo) {
+			    x = document.getElementById(comodo).id;
+			    var texto = "";
+			    if (x == "home"){
+			    	var texto = home();
+					document.getElementById("content").innerHTML = texto;
+			    }
+			    else if (x == "quarto"){
+			    	var texto = '<h1 class="comodo">QUARTO</h1></br></br>'+
+			    				'<div id = "content_mecanismos">'+
+				    				'<div id = "mecanismos">'+//CHECKBOX
+					    				'<div id="barra"></div>'+
+					    				'<p class="tipo_mecanismo">Porta</p>'+
+					    				'<label class="toggle">'+
+					    					'<input id="checkbox" type="checkbox"/>'+
+					    					'<div class = "slider round"></div>'+
+					    				'</label>'+
+					    			'</div>'+
+					    			'<div id = "mecanismos">'+//CHECKBOX
+					    				'<div id="barra"></div>'+
+					    				'<p class="tipo_mecanismo">Persiana</p>'+
+					    				'<label class="toggle">'+
+					    				'<input id="checkbox" type="checkbox"/>'+
+					    				'<div class = "slider round"></div>'+
+					    				'</label>'+
+				    				'</div>'+
+				    				'<div id = "mecanismos">'+//RANGE
+					    				'<div id="barra"></div>'+
+					    				'<p class="tipo_mecanismo">Luz</p>'+
+					    				'<input id="range" type="range"/>'+
+					    			'</div>'+
+			    				'</div>';
+			    }
+			    else if (x == "banheiro"){
+			    	var texto = '<h1 class="comodo">BANHEIRO</h1></br></br>'+
+			    				'<div id = "content_mecanismos">'+
+				    				'<div id = "mecanismos">'+//CHECKBOX
+					    				'<div id="barra"></div>'+
+					    				'<p class="tipo_mecanismo">Porta</p>'+
+					    				'<label class="toggle">'+
+					    					'<input id="checkbox" type="checkbox"/>'+
+					    					'<div class = "slider round"></div>'+
+					    				'</label>'+
+					    			'</div>'+
+				    				'<div id = "mecanismos">'+//RANGE
+					    				'<div id="barra"></div>'+
+					    				'<p class="tipo_mecanismo">Luz</p>'+
+					    				'<input id="range" type="range"/>'+
+					    			'</div>'+
+			    				'</div>';
+			    }
+			    else{
+			    	var texto ='<br/>'+ comodo.toUpperCase() +' - EM CONSTRUÇÃO</p>';
+			    	
+			    }
+
+			    document.getElementById("content").innerHTML = texto;
+			};
+			//Muda a cor quando clica
+			var store = 0;
+			function cor(num) {
+  					document.getElementsByClassName("menu-item")[store].style.backgroundColor = '#1FA49F';		
+  					document.getElementsByClassName("menu-item")[num].style.backgroundColor = '#1D9591';
+  					store = num;
+  			};
+  			function home(){
+ 		 		var texto = '<div id="projeto">'+
+						'<h1 class="fonteprojeto"><strong>Projeto Hawu</strong></h1><br/>'+
+						'<div id="logo">'+
+							'<img src="images/hawu.png"/>'+
+						'</div>'+
+						'<h3>O que é?</h3><br/>'+
+						'<p class="cinza">Observando a baixa mobilidade e alta dependência dos cadeirantes, nosso grupo optou por facilitar seu dia-a-dia oferecendo mais autonomia. Decidimos desenvolver então um sistema de automação residencial. Nosso objetivo será alcançado através da aplicação e desenvolvimento de um aplicativo que pode ser utilizado para controlar residências remotamente através de wi-fi.</p><br/>'+
+						'<h3>Quem somos?</h3><br/>'+
+						'<p  class="cinza">Formado por um grupo de estudantes com as mais diversas capacidades e habilidades dentro do ramo da informatica para internet, programação design, marcenaria, mecanica e eletrônica.</p><br/>'+
+						'<div id="imagens_quemsomos">'+
+							'<img src="images/edison.jpg"/>'+
+						'<br/>'+
+						'<h3>Edison Goldenstein</h3>'+
+						'<p  class="cinza">Entendedor de mecânica e entusiasta da engenharia, psicologia, artes marciais diversas e línguas. Conhece de tudo sobre a história das guerras, seus veículos, combustíveis, movimentos políticos, figuras importantes e tecnologias. Forneceu as ferramentas e material para a realização do projeto e é responsável pelas postagens do blog, parte escrita, acabamento da maquete e instalação dos mecanismos.</p><br/>'+
+							'<img src="images/felipe.jpg"/>'+
+						'<br/>'+
+						'<h3>Felipe Batista</h3>'+
+						'<p  class="cinza">Idealizador e co-fundador do dojô de programação ETECPJ 2015 e 2016. Ex-skatista, ex-guitarrista, liberal, ótimo com ferramentas, programador habil e educador. Responsável integralmente pela programação da placa controladora, grande parte do site, estrutura da maquete e mecanismo da cama.</p><br/>'+
+							'<img src="images/leticia.jpg"/>'+
+						'<br/>'+
+						'<h3>Letícia Takimoto</h3>'+
+						'<p  class="cinza">Dedicada e estudiosa, gosta de sertanejo e festas. Atualmente estudando para seguir em engenharia de produção. Responsável principal pela documentação do projeto e coordenação da equipe.</p><br/>'+
+							'<img src="images/gabriel.jpg"/>'+
+						'<br/>'+
+						'<h3>Gabriel de Alcantara</h3>'+
+						'<p  class="cinza">Co-fundador do dojô de programação ETECPJ 2015 E 2016, maker e educador interessado por línguas, ciência da computação, robótica, física, matemática computacional, cultura hacker e eletrônica. Responsável por obter contatos que otimizaram o tempo, pesquisas e custos do projeto, designer 3D e de mecanismos mecânicos/eletrônicos.</p><br/>'+
+							'<img src="images/guedes.jpg"/>'+
+						'<br/>'+
+						'<h3>Lucas Guedes</h3>'+
+						'<p  class="cinza">Gosta de músicas eletrônicas, luta karatê e atualmente está estudando para ser engenheiro mecatrônico. Cuidou dos banners do projeto, acabamento da maquete, instalação dos mecanismos, documentação da parte escrita/blog e comunicação.</p><br/>'+
+							'<img src="images/daniel.jpg"/>'+
+						'<br/>'+
+						'<h3>Daniel Martins</h3>'+
+						'<p  class="cinza">Sorocabano, gosta de futebol, música, interessado por diplomacia, política, religião, línguas e fóruns de internet. Responsável pela maquete e documentação da parte escrita/blog.</p><br/>'+
+						'</div><br/>'+
+					'</div>';
+					return texto;
+			};
+
+		</script>
+	<!--Javascript-->
+		<div id="container">
+			<div id="menu">
+				<div id="home" onclick="comodo('home');cor(0)" class="menu-item"> <!--Home-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgHome.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgHome.svg" />
+						</div>
+					</div>
+				</div>
+				<div id="quarto" onclick="comodo('quarto');cor(1)" class="menu-item"> <!--Quarto-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgQuarto.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgQuarto.svg" />
+						</div>
+					</div>
+				</div>
+				<div id="banheiro" onclick="comodo('banheiro');cor(2)" class="menu-item"> <!--Banheiro-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgBanheiro.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgBanheiro.svg" />
+						</div>
+					</div>
+				</div>
+				<div id="saladeestar" onclick="comodo('saladeestar');cor(3)" class="menu-item"> <!--Sala de Estar-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgSalaEstar.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgSala.svg" />
+						</div>
+					</div>
+				</div>
+				<div id="cozinha" onclick="comodo('cozinha');cor(4)"  class="menu-item"> <!--Cozinha-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgCozinha.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgCozinha.svg" />
+						</div>
+					</div>
+				</div>
+				<div id="saladejantar" onclick="comodo('saladejantar');cor(5)" class="menu-item"> <!--Sala de Jantar-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgSalaJantar.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgSala.svg" />
+						</div>
+					</div>
+				</div>
+
+				<div id="lavanderia" onclick="comodo('lavanderia');cor(6)" class="menu-item"> <!--Lavanderia-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgLavanderia.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgLavanderia.svg" />
+						</div>
+					</div>
+				</div>
+				<div id="garagem" onclick="comodo('garagem');cor(7)"  class="menu-item"> <!--Garagem--><!--cor(7)  oitava vez em que a classe "menu-item" aparece - é um array começa no 0 e termina n o 7-->
+					<div class="ar-mixin">
+						<div id="menu-icon">
+							<img src="Images/Menu/imgGaragem.svg" />
+						</div>
+						<div id="menu-text">
+							<img src="Images/MenuTxt/imgGaragem.svg" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="content">
+			</div>
+			</div>
+		</div>
+	</body>
+</html>

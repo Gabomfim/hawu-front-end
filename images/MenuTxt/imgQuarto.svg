@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="111.6076mm"
+   height="36.4744mm"
+   viewBox="0 0 395.45999 129.24"
+   id="svg5882"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="imgTextoQuarto.svg">
+  <defs
+     id="defs5884" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-153.62941"
+     inkscape:cy="-217.79979"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1536"
+     inkscape:window-height="801"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5887">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-55.772266,-185.32242)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="182.85715"
+       y="160.93362"
+       id="text6430"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6432"
+         x="182.85715"
+         y="160.93362" /></text>
+    <g
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:180px;line-height:125%;font-family:BigNoodleTitling;-inkscape-font-specification:BigNoodleTitling;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="flowRoot6434">
+      <path
+         d="m 123.63227,314.56242 -46.980004,0 q -20.88,0 -20.88,-21.78 l 0,-85.32 q 0,-22.14 20.7,-22.14 l 16.56,0 q 20.700004,0 20.700004,22.14 l 0,91.44 9.9,0 0,15.66 z m -27.180004,-15.66 0,-90.36 q 0,-7.56 -7.74,-7.56 l -8.1,0 q -7.56,0 -7.56,7.56 l 0,82.8 q 0,7.56 7.74,7.56 l 15.66,0 z"
+         style="fill:#ffffff;fill-opacity:1"
+         id="path6443" />
+      <path
+         d="m 187.71508,185.32242 0,104.76 q 0,24.48 -20.88,24.48 l -14.58,0 q -20.7,0 -20.7,-24.66 l 0,-104.58 17.28,0 0,105.12 q 0,8.46 7.56,8.46 l 7.02,0 q 7.02,0 7.02,-8.46 l 0,-105.12 17.28,0 z"
+         style="fill:#ffffff;fill-opacity:1"
+         id="path6445" />
+      <path
+         d="m 220.35695,314.56242 -17.28,0 0,-107.1 q 0,-22.14 20.7,-22.14 l 12.96,0 q 20.7,0 20.7,22.14 l 0,107.1 -17.28,0 0,-47.34 -19.8,0 0,47.34 z m 19.8,-63 0,-43.02 q 0,-7.56 -7.56,-7.56 l -4.68,0 q -7.56,0 -7.56,7.56 l 0,43.02 19.8,0 z"
+         style="fill:#ffffff;fill-opacity:1"
+         id="path6447" />
+      <path
+         d="m 272.53164,185.32242 33.84,0 q 19.8,0 19.8,22.14 l 0,31.86 q 0,16.92 -10.26,21.42 l 12.06,53.82 -16.38,0 -11.34,-52.2 -10.44,0 0,52.2 -17.28,0 0,-129.24 z m 17.28,62.28 11.34,0 q 7.74,0 7.74,-9.36 l 0,-27.9 q 0,-9.36 -7.74,-9.36 l -11.34,0 0,46.62 z"
+         style="fill:#ffffff;fill-opacity:1"
+         id="path6449" />
+      <path
+         d="m 367.9232,200.98242 0,113.58 -17.28,0 0,-113.58 -16.56,0 0,-15.66 50.4,0 0,15.66 -16.56,0 z"
+         style="fill:#ffffff;fill-opacity:1"
+         id="path6451" />
+      <path
+         d="m 414.15227,314.56242 q -20.88,0 -20.88,-21.96 l 0,-85.14 q 0,-22.14 20.7,-22.14 l 16.56,0 q 20.7,0 20.7,22.14 l 0,85.14 q 0,21.96 -20.88,21.96 l -16.2,0 z m 4.14,-15.66 8.82,0 q 6.84,0 6.84,-7.56 l 0,-82.8 q 0,-7.56 -7.74,-7.56 l -8.1,0 q -7.56,0 -7.56,7.56 l 0,82.8 q 0,7.56 7.74,7.56 z"
+         style="fill:#ffffff;fill-opacity:1"
+         id="path6453" />
+    </g>
+  </g>
+</svg>
